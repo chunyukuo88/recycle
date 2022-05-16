@@ -23,7 +23,7 @@ functions:
           path: /
           method: get
   createLocation:
-    handler: createLocation.httpPostHandler
+    handler: src/locations/createLocation/createLocation.httpPostHandler
     events:
       - httpApi:
           path: /

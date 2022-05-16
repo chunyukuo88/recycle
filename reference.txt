@@ -1,0 +1,2 @@
+Test the createLocation endpoint:
+curl -X POST --data '{"name":"some place", "email":"some@place.com"}' --url https://9ibcoex0og.execute-api.us-east-1.amazonaws.com/
